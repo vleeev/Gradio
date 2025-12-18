@@ -1,2 +1,3 @@
-# Gradio
-Gradio Bonus
+# Minimal Gradio + Transformers Tutorial
+
+This repository contains a short tutorial notebook that demonstrates how to build a simple Gradio app using Blocks with a Row and two Columns, an image upload component, a slider, and a button. The app integrates a Hugging Face Transformers pipeline for image classification using the Vision Transformer model google/vit-base-patch16-224, and returns the top K predicted labels for the uploaded image. The notebook walks through installing dependencies, creating the pipeline, writing a minimal prediction function, building the layout, and launching the app.
